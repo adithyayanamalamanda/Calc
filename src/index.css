@@ -1,0 +1,245 @@
+:root {
+  /* Onyx Neon Theme (Default) */
+  --bg-primary: #0b0f19;
+  --bg-secondary: #111827;
+  --bg-card: rgba(17, 24, 39, 0.75);
+  --bg-card-hover: rgba(31, 41, 55, 0.85);
+  --bg-display: #080c14;
+  
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(99, 102, 241, 0.35);
+  
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --text-dim: #6b7280;
+  
+  --accent-primary: #6366f1;
+  --accent-primary-hover: #4f46e5;
+  --accent-glow: rgba(99, 102, 241, 0.4);
+  
+  --accent-secondary: #06b6d4;
+  --accent-secondary-glow: rgba(6, 182, 212, 0.35);
+  
+  --accent-action: #ec4899;
+  --accent-action-glow: rgba(236, 72, 153, 0.35);
+  
+  --btn-num-bg: rgba(30, 41, 59, 0.65);
+  --btn-num-hover: rgba(51, 65, 85, 0.85);
+  --btn-num-text: #f8fafc;
+  
+  --btn-op-bg: rgba(99, 102, 241, 0.15);
+  --btn-op-hover: rgba(99, 102, 241, 0.3);
+  --btn-op-text: #a5b4fc;
+  
+  --btn-fn-bg: rgba(14, 165, 233, 0.12);
+  --btn-fn-hover: rgba(14, 165, 233, 0.25);
+  --btn-fn-text: #7dd3fc;
+  
+  --btn-clear-bg: rgba(239, 68, 68, 0.15);
+  --btn-clear-hover: rgba(239, 68, 68, 0.28);
+  --btn-clear-text: #fca5a5;
+
+  --btn-equals-bg: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+  --btn-equals-text: #ffffff;
+  --btn-equals-glow: 0 0 25px rgba(139, 92, 246, 0.5);
+
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.7), 0 0 30px -10px rgba(99, 102, 241, 0.15);
+  --radius-xl: 24px;
+  --radius-lg: 16px;
+  --radius-md: 10px;
+  --radius-sm: 6px;
+}
+
+/* Cyber Matrix Theme */
+body[data-theme='cyber'] {
+  --bg-primary: #050d0a;
+  --bg-secondary: #081912;
+  --bg-card: rgba(8, 25, 18, 0.82);
+  --bg-card-hover: rgba(12, 38, 28, 0.9);
+  --bg-display: #020805;
+  
+  --border-subtle: rgba(16, 185, 129, 0.15);
+  --border-accent: rgba(16, 185, 129, 0.45);
+  
+  --text-main: #e6fffa;
+  --text-muted: #6ee7b7;
+  --text-dim: #047857;
+  
+  --accent-primary: #10b981;
+  --accent-primary-hover: #059669;
+  --accent-glow: rgba(16, 185, 129, 0.4);
+  
+  --accent-secondary: #34d399;
+  --accent-secondary-glow: rgba(52, 211, 153, 0.3);
+  
+  --btn-num-bg: rgba(6, 44, 30, 0.6);
+  --btn-num-hover: rgba(10, 61, 42, 0.8);
+  --btn-num-text: #a7f3d0;
+  
+  --btn-op-bg: rgba(16, 185, 129, 0.18);
+  --btn-op-hover: rgba(16, 185, 129, 0.32);
+  --btn-op-text: #34d399;
+  
+  --btn-fn-bg: rgba(45, 212, 191, 0.14);
+  --btn-fn-hover: rgba(45, 212, 191, 0.28);
+  --btn-fn-text: #5eead4;
+  
+  --btn-equals-bg: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%);
+  --btn-equals-glow: 0 0 25px rgba(16, 185, 129, 0.55);
+}
+
+/* Titanium Frost Theme */
+body[data-theme='frost'] {
+  --bg-primary: #0d1527;
+  --bg-secondary: #132238;
+  --bg-card: rgba(19, 34, 56, 0.85);
+  --bg-card-hover: rgba(28, 49, 80, 0.9);
+  --bg-display: #080f1d;
+  
+  --border-subtle: rgba(147, 197, 253, 0.12);
+  --border-accent: rgba(59, 130, 246, 0.4);
+  
+  --text-main: #f0f9ff;
+  --text-muted: #93c5fd;
+  --text-dim: #60a5fa;
+  
+  --accent-primary: #3b82f6;
+  --accent-primary-hover: #2563eb;
+  --accent-glow: rgba(59, 130, 246, 0.4);
+  
+  --accent-secondary: #38bdf8;
+  --accent-secondary-glow: rgba(56, 189, 248, 0.35);
+  
+  --btn-num-bg: rgba(30, 58, 95, 0.55);
+  --btn-num-hover: rgba(41, 78, 128, 0.75);
+  --btn-num-text: #e0f2fe;
+  
+  --btn-op-bg: rgba(59, 130, 246, 0.16);
+  --btn-op-hover: rgba(59, 130, 246, 0.3);
+  --btn-op-text: #bfdbfe;
+  
+  --btn-fn-bg: rgba(14, 165, 233, 0.15);
+  --btn-fn-hover: rgba(14, 165, 233, 0.28);
+  --btn-fn-text: #7dd3fc;
+  
+  --btn-equals-bg: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%);
+  --btn-equals-glow: 0 0 25px rgba(59, 130, 246, 0.55);
+}
+
+/* Sunset Horizon Theme */
+body[data-theme='sunset'] {
+  --bg-primary: #150a21;
+  --bg-secondary: #221235;
+  --bg-card: rgba(34, 18, 53, 0.85);
+  --bg-card-hover: rgba(51, 28, 78, 0.9);
+  --bg-display: #0d0614;
+  
+  --border-subtle: rgba(244, 114, 182, 0.15);
+  --border-accent: rgba(244, 63, 94, 0.45);
+  
+  --text-main: #fff1f2;
+  --text-muted: #fda4af;
+  --text-dim: #f43f5e;
+  
+  --accent-primary: #f43f5e;
+  --accent-primary-hover: #e11d48;
+  --accent-glow: rgba(244, 63, 94, 0.45);
+  
+  --accent-secondary: #f59e0b;
+  --accent-secondary-glow: rgba(245, 158, 11, 0.35);
+  
+  --btn-num-bg: rgba(58, 25, 68, 0.6);
+  --btn-num-hover: rgba(85, 36, 100, 0.8);
+  --btn-num-text: #ffe4e6;
+  
+  --btn-op-bg: rgba(244, 63, 94, 0.18);
+  --btn-op-hover: rgba(244, 63, 94, 0.32);
+  --btn-op-text: #fecdd3;
+  
+  --btn-fn-bg: rgba(245, 158, 11, 0.16);
+  --btn-fn-hover: rgba(245, 158, 11, 0.3);
+  --btn-fn-text: #fde68a;
+  
+  --btn-equals-bg: linear-gradient(135deg, #f43f5e 0%, #fb923c 100%);
+  --btn-equals-glow: 0 0 25px rgba(244, 63, 94, 0.55);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-primary);
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 85%, rgba(6, 182, 212, 0.06) 0%, transparent 40%);
+  color: var(--text-main);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input, select {
+  font-family: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  outline: none;
+}
+
+/* Glassmorphism card */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
